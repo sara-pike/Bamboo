@@ -11,9 +11,10 @@ body {
 }
 
 #wrapper{
-  max-width:940px;
+  max-width:900px;
   margin:0 auto;
-  padding:0 5%;
+  padding:0 10%;
+  box-shadow: 0 20px 20px #47433A;
 }
 
 a {
@@ -197,7 +198,7 @@ SECTIONS
 
 
 #wrapper {
-  padding:5px;
+  padding:30px;
 }
 
 #surveyor img {
@@ -260,13 +261,15 @@ CAROUSEL
 .carousel {
     /*position: relative;*/
     /*margin-top: 26px;*/
-    margin-bottom: 20px;
+
 }
 
 .carousel-inner {
     position: relative;
+    left:20px;
+    top:-60px;
     overflow: hidden;
-    width: 100%;
+    width: 96%;
     box-shadow: 0 2px 4px rgba(84, 78, 65, 0.99);
 }
 
@@ -385,12 +388,16 @@ COLOURS
 /* site body */
 body {
   background-color:#857A69;
-  color:#fff9df;
+  color:#857A69;
+}
+
+#wrapper {
+  background-color:#fff9df;
 }
 
 /* dark grey header */
 header {
-  background: url('../img/header-web.jpg');
+  background-color: #47433A;
   border-color: #47433A;
 }
 
@@ -406,7 +413,7 @@ section h2 {
 
 /* links */
 a{
-  color: #fff9df;
+  color: #47433A;
 }
 
 a:hover {
