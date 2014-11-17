@@ -6,7 +6,8 @@ GENERAL
 body {
   font-family: 'Lato', sans-serif;
   font-weight:100;
-  letter-spacing:0.5px;
+  letter-spacing:1px;
+  font-size:1em;
 }
 
 #wrapper{
@@ -27,18 +28,21 @@ img {
 section h2 {
   font-weight:400;
   letter-spacing:3px;
+  font-size:1.4em;
 }
 
 p {
   margin-bottom:10px;
+  line-height:150%;
 }
 
 h2 {
- 
-  font-size:1em;
-  font-weight:200;
+
+  font-size:1.1em;
+  font-weight:100;
   text-transform:uppercase;
   letter-spacing:6.5px;
+  margin:0;
 }
 
 h3 {
@@ -71,10 +75,11 @@ header h2 {
 #logo {
   text-align:center;
   margin:0;
+  padding-top:15px;
 }
 
 h1 {
-  font-family: 'Allerta Stencil', sans-serif; 
+  font-family: 'Allerta Stencil', sans-serif;
   margin:15px 0;
   font-size:3.75em;
   font-weight:normal;
@@ -91,15 +96,15 @@ NAVIGATION
 nav {
   text-align:center;
   line-height: 1.75em;
-  padding: 10px 0;
-  margin:10px 0 0;
+  padding: 15px 0;
   letter-spacing:3px;
+
 }
 
 nav ul{
   list-style:none;
   margin:0 10px;
-  padding:0;
+  padding: 5px;
 }
 
 nav li{
@@ -107,9 +112,11 @@ nav li{
 }
 
 nav a {
-  font-weight:100;
+  font-weight:400;
+  font-size:1.4em;
+  line-height: 180%;
   padding:15px 10px;
-  text-transform:uppercase; 
+  text-transform:uppercase;
 }
 
 /***********************
@@ -121,7 +128,7 @@ footer{
   text-align:center;
   clear:both;
   padding-top: 50px;
-  color:#544e41;
+  color:#47433A;
   font-weight:400;
 }
 
@@ -155,7 +162,7 @@ PAGE PORTFOLIO
   margin:0;
   padding:5%;
   font-size:0.75em;
-  color:#bdc3c7; 
+  color:#bdc3c7;
 }
 
 
@@ -168,11 +175,18 @@ PAGE ETHOS
 .profile-photo{
   display:block;
   max-width:300px;
-  margin:0 auto 30px;
+  margin:0 auto 20px;
   box-shadow: 0 2px 4px rgba(84, 78, 65, 0.99);
 }
 
 
+.ethos h2, #tertiary h2 {
+  margin-top:40px;
+}
+
+.ethos  {
+  padding:20px;
+}
 
 /***********************
 SECTIONS
@@ -182,16 +196,36 @@ SECTIONS
 }
 
 
+#wrapper {
+  padding:5px;
+}
+
+#surveyor img {
+  width:300px;
+  margin-right:125px;
+}
+
+
 
 /***********************
 PAGE CONTACT
 ************************/
 
+
+
 .contact-info{
   list-style:none;
   padding:0;
   margin:0;
-  font-size:0.9em;
+  font-size:1em;
+  line-height:150%;
+}
+
+.contact-info-meet{
+  padding:0 0 0 20px;
+  margin:0;
+  font-size:1em;
+  line-height:150%;
 }
 
 .contact-info a{
@@ -201,6 +235,7 @@ PAGE CONTACT
   background-size:20px 20px;
   padding: 0 0 0 30px;
   margin: 0 0 10px;
+
 }
 
 .contact-info li.phone a {
@@ -214,7 +249,6 @@ PAGE CONTACT
 .contact-info li.twitter a {
   background-image:url('../img/twitter.png');
 }
-
 
 
 
@@ -276,7 +310,7 @@ CAROUSEL
 
 .carousel-control.prev {
     left: 2%;
-    
+
 }
 
 .carousel-control.next {
@@ -286,7 +320,7 @@ CAROUSEL
 .carousel-control:hover {
     background: rgba(84, 78, 65, 0.8);
     color: #c4ff46;
-    
+
 }
 
 #carousel-1:checked ~ .control-1,
@@ -313,15 +347,15 @@ CAROUSEL
 }
 
 .carousel-bullet {
-    color: #544e41;
+    color: #47433A;
     cursor: pointer;
     display: block;
     font-size: 35px;
 }
 
 .carousel-bullet:hover {
-    color: #80725c;
-    
+    color: #857A69;
+
 }
 
 #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
@@ -350,38 +384,38 @@ COLOURS
 
 /* site body */
 body {
-  background-color:#80725c;
+  background-color:#857A69;
   color:#fff9df;
 }
 
 /* dark grey header */
 header {
   background: url('../img/header-web.jpg');
-  border-color: #544e41;
+  border-color: #47433A;
 }
 
 /* nav bg on moblie */
 nav {
-  background: #544e41;
-   
+  background: #47433A;
+
 }
 
 section h2 {
-  color:#544e41;
+  color:#47433A;
 }
 
 /* links */
 a{
-  color: #bfaa8a;
+  color: #fff9df;
 }
 
 a:hover {
-  color:#fff9df;
+  color:#000000;
 }
 
 /* nav link colours */
 nav a, a:visited {
-  color: #bfaa8a;
+  color: #fff9df;
 }
 
 /* selected nav link colours */
@@ -389,10 +423,15 @@ nav a.selected{
   color:#c4ff46
 }
 nav a:hover {
-  color:#fff9df
+  color:#857A69
 
+}
+
+footer a, a:visited {
+  font-weight:100;
 }
 
 #logo {
   color:#c4ff46;
 }
+
