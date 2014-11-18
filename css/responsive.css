@@ -6,6 +6,10 @@
     width: 118%;
   }
 
+  #primary-img {
+    display:none;
+  }
+
 }
 
 
@@ -26,12 +30,12 @@
     2 COL LAYOUT
     ************************/
 
-  #primary{
+  #primary, #primary-img{
     width:35%;
     float:left;
   }
 
-  #primary li{
+  #primary li, #primary-img li{
     line-height:150%;
     padding: 0 0 20px 0;
   }
@@ -84,7 +88,7 @@
 
 
 @media screen and (max-width:815px) {
-  #primary, #secondary, #tertiary, #surveyor, section {
+  #primary, #secondary, #tertiary, #surveyor, #primary-img, section {
     width:80%;
     padding: 20px;
     float:none;

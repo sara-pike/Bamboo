@@ -213,8 +213,16 @@ SECTIONS
   margin-right:125px;
 }
 
-#primary li {
+#primary-img li {
   list-style:none;
+}
+
+#primary, #primary-img {
+  padding-left:20px;
+}
+
+.service-intro {
+  padding:0 0 20px 20px;
 }
 
 /***********************
@@ -232,7 +240,7 @@ PAGE CONTACT
 }
 
 .contact-info-meet{
-  padding:0 0 0 20px;
+  padding:0 0 20px 20px;
   margin:0;
   font-size:1em;
   line-height:150%;
@@ -430,7 +438,7 @@ a:hover {
 }
 
 /*  nav dropdown colours */
-nav ul li a:hover {
+nav ul li a:hover, nav a:hover, #primary span, .contact-info-meet span {
   color: #857A69;
 }
 
@@ -451,9 +459,7 @@ nav a, a:visited {
 nav a.selected{
   color:#c4ff46
 }
-nav a:hover {
-  color:#857A69;
-}
+
 
 
 
@@ -461,7 +467,7 @@ footer a, a:visited {
   font-weight:100;
 }
 
-#logo {
+#logo, #primary li, .contact-info-meet li {
   color:#c4ff46;
 }
 
