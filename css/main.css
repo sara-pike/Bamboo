@@ -5,7 +5,7 @@ GENERAL
 
 body {
   font-family: 'Lato', sans-serif;
-  font-weight:100;
+  font-weight:400;
   letter-spacing:1px;
   font-size:1em;
 }
@@ -120,6 +120,13 @@ nav a {
   text-transform:uppercase;
 }
 
+
+nav ul li ul  {
+  display: none;
+}
+
+
+
 /***********************
 FOOTER
 ************************/
@@ -206,7 +213,9 @@ SECTIONS
   margin-right:125px;
 }
 
-
+#primary li {
+  list-style:none;
+}
 
 /***********************
 PAGE CONTACT
@@ -392,7 +401,7 @@ body {
 }
 
 #wrapper {
-  background-color:#fff9df;
+  background-color:#fffdf4;
 }
 
 /* dark grey header */
@@ -420,6 +429,19 @@ a:hover {
   color:#000000;
 }
 
+/*  nav dropdown colours */
+nav ul li a:hover {
+  color: #857A69;
+}
+
+nav ul li ul li a {
+  color: #47433A;
+}
+
+nav ul li ul li {
+  background: #c4ff46;
+  }
+
 /* nav link colours */
 nav a, a:visited {
   color: #fff9df;
@@ -430,9 +452,10 @@ nav a.selected{
   color:#c4ff46
 }
 nav a:hover {
-  color:#857A69
-
+  color:#857A69;
 }
+
+
 
 footer a, a:visited {
   font-weight:100;
