@@ -107,6 +107,10 @@ section h2 {
 */  font-size:1.5em;
 }
 
+.contact-info li.mail a {
+  width:110px;
+}
+
 }
 
 @media screen and (min-width:660px) {
